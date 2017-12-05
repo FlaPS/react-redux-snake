@@ -11,7 +11,6 @@ const gameState = {
         food:  {x: 0, y: 0} as Point,
         direction: Direction.RIGHT as any as Direction,
     },
-    isStarted: false,
     settings: {
         rows: 10,
         cols: 10,
