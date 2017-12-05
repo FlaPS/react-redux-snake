@@ -1,0 +1,10 @@
+**/node_modules
+**/.vscode
+**/.idea
+
+**/dist
+**/lib
+
+**/npm-debug.log
+lerna-debug.log
+git

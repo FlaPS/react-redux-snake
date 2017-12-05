@@ -1,0 +1,55 @@
+{
+    "compilerOptions": {
+
+        "outDir": "./dist/",
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "module": "es6",
+        "target": "es6",
+        "jsx": "react",
+
+        "allowJs": true,
+        "moduleResolution" : "node",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "allowSyntheticDefaultImports": true,
+        "skipLibCheck": true,
+        "typeRoots" : [
+            "../node_modules/@types",
+            "./typings"
+        ],
+        "lib": [
+            "es5",
+            "es6",
+            "es7",
+            "dom",
+            "scripthost",
+            "es2015.core",
+            "es2015.collection",
+            "es2015.generator",
+            "es2015.iterable",
+            "es2015.promise",
+            "es2015.proxy",
+            "es2015.reflect",
+            "es2015.symbol",
+            "es2015.symbol.wellknown"
+        ]
+
+    },
+
+    "exclude": [
+        "./node_modules/**/*",
+        "**/*.story.ts",
+        "*.story.ts",
+        "**/*.test.ts",
+        "*.test.ts",
+        "**/*.story.tsx",
+        "*.story.tsx",
+        "**/*.test.tsx",
+        "*.test.tsx"
+    ],
+    "awesomeTypescriptLoaderOptions": {
+        "silent": false,
+        "transpileOnly": true
+    }
+}
